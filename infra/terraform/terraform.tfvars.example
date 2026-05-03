@@ -1,0 +1,8 @@
+region              = "eu-central-1"
+environment         = "prod"
+backend_image       = "ghcr.io/masterplan/backend:1.0.0"
+frontend_image      = "ghcr.io/masterplan/frontend:1.0.0"
+jwt_public_secret   = "ureticide_random_uretilen_guclu_gizli"
+jwt_internal_secret = "ic_servisler_icin_random_uretilen_guclu_gizli"
+aes_master_key      = "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+alb_allowed_cidrs   = ["0.0.0.0/0"]
